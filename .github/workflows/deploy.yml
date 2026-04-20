@@ -26,4 +26,4 @@ jobs:
             npm install
 
             # restart app (choose one)
-            pm2 restart all || pm2 start app.js
+            pm2 restart all || pm2 start index.js
